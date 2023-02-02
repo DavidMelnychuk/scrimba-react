@@ -5,9 +5,9 @@ export default function Interests() {
     <div className="interests">
       <h3>Interests</h3>
       <p>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        UX Design. Product Management. Full Stack Development. Startups. Crypto.{" "}
       </p>
+      <p style={{ marginTop: "4px" }}> Books. Weights. Food. Travel.</p>
     </div>
   );
 }

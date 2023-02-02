@@ -9,11 +9,14 @@ export default function Contact() {
       <h4>Fullstack Developer</h4>
       <a href="https://www.davidmelnychuk.com">davidmelnychuk.com</a>
       <address>
-        <a href="#" className="email-button">
+        <a href="mailto:davidmelnychukcodes@gmail.com" className="email-button">
           <img src={mailIcon} className="mail-icon" />
           Email
         </a>
-        <a href="#" className="linkedIn-button">
+        <a
+          href="https://www.linkedin.com/in/david-melnychuk/"
+          className="linkedIn-button"
+        >
           <img src={linkedInIcon} className="mail-icon" />
           LinkedIn
         </a>

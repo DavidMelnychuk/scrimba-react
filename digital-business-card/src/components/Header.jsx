@@ -1,5 +1,5 @@
 import "../App.css";
-import headshot from "../assets/headshot.jpg";
+import headshot from "../assets/headshot.png";
 
 export default function Header() {
   return (

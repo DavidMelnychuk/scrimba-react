@@ -7,16 +7,10 @@ import githubIcon from "../assets/GithubIcon.svg";
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className="social-icon">
+      <a href="https://twitter.com/david_melnychuk" className="social-icon">
         <img src={twitterIcon}></img>
       </a>
-      <a href="#" className="social-icon">
-        <img src={facebookIcon}></img>
-      </a>{" "}
-      <a href="#" className="social-icon">
-        <img src={instagramIcon}></img>
-      </a>{" "}
-      <a href="#" className="social-icon">
+      <a href="https://github.com/DavidMelnychuk" className="social-icon">
         <img src={githubIcon}></img>
       </a>
     </footer>
