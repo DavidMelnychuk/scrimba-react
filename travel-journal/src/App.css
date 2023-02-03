@@ -1,0 +1,35 @@
+#root {
+  /* max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem; */
+  /* text-align: center; */
+}
+
+body {
+  margin: 0;
+  place-items: center;
+
+  font-family: "Inter";
+}
+
+header {
+  display: flex;
+  height: 55px;
+  color: white;
+  background: #f55a5a;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+header > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.card {
+}
