@@ -1,9 +1,8 @@
 import "../App.css";
+import cardData from "../data";
+import Card from "./Card";
 
 export default function Journal() {
-  return (
-    <>
-      <h1>Journal</h1>
-    </>
-  );
+  const cards = cardData.map((data) => <Card key={data.title} {...data} />);
+  return <div className="journal">{cards}</div>;
 }

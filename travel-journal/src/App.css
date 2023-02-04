@@ -1,14 +1,11 @@
 #root {
-  /* max-width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem; */
-  /* text-align: center; */
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   place-items: center;
-
   font-family: "Inter";
 }
 
@@ -31,5 +28,68 @@ header > img {
   margin-right: 8px;
 }
 
+.journal {
+  margin: 0 auto;
+  max-width: 65em;
+}
+
 .card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 18px;
+}
+
+.card__image {
+  width: 125px;
+  height: 170px;
+  border-radius: 5px;
+}
+
+.card__info {
+  padding-top: 12px;
+}
+
+.card__info--title {
+  display: flex;
+  align-items: center;
+}
+
+.card__info--location {
+  color: #2b283a;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0 12px 0 4px;
+}
+
+.card__info--marker {
+  width: 1em;
+  height: 1em;
+}
+
+.card__info--link {
+  font-size: 0.8em;
+  line-height: 12px;
+  color: #918e9b;
+}
+
+.card__info > h1 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #2b283a;
+  margin: 4px 0 12px 0;
+}
+
+.card__info--date {
+  font-weight: 700;
+  font-size: 0.8em;
+  color: #2b283a;
+}
+.card__info--description {
+  font-size: 0.75em;
+  line-height: 150%;
+  color: #2b283a;
 }
